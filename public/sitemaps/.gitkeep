@@ -1,0 +1,10 @@
+# Sitemap Generator - Sitemaps Directory
+This directory stores generated sitemap files.
+
+Each project will have its own subdirectory with the sitemap files:
+- `{project-slug}/sitemap-index.xml` - The sitemap index file
+- `{project-slug}/sitemap-1.xml` - First sitemap file (up to 50,000 URLs)
+- `{project-slug}/sitemap-2.xml` - Second sitemap file (if needed)
+- etc.
+
+**Note:** Do not manually edit these files. They are auto-generated.
